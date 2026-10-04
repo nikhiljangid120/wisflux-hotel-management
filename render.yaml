@@ -16,4 +16,4 @@ services:
       - key: FRONTEND_URL
         value: https://wisflux-hotel-management.vercel.app
       - key: DATABASE_URL
-        sync: false
+        value: postgresql://neondb_owner:npg_YTGvpQS3EMU8@ep-long-brook-azr0qwzr-pooler.c-3.ap-southeast-1.aws.neon.tech/neondb?sslmode=require
