@@ -186,7 +186,7 @@ function App() {
             <Crown className="w-4 h-4 text-[#D4AF37]" />
             <span className="font-luxury font-bold text-white tracking-wider">AURA GRAND RESORTS</span>
             <span className="text-slate-600">•</span>
-            <span>Wisflux Tech Labs Internship 3rd Assignment</span>
+            <span>Luxury Hospitality & Reservation Suite</span>
           </div>
 
           <div className="flex items-center gap-4">

@@ -49,7 +49,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               <div className="flex items-center gap-2">
                 <span className="text-xl font-bold tracking-wider font-luxury text-white">AURA GRAND</span>
                 <span className="text-[10px] uppercase tracking-widest font-semibold px-2 py-0.5 rounded-full bg-[#D4AF37]/15 text-[#F3E5AB] border border-[#D4AF37]/30">
-                  WISFLUX OS
+                  ENTERPRISE OS
                 </span>
               </div>
               <p className="text-xs text-slate-400 font-medium">Hotel & Reservation Intelligence Suite</p>

@@ -186,7 +186,7 @@ export const PropertyManager: React.FC<PropertyManagerProps> = ({
               </label>
               <input
                 type="text"
-                placeholder="e.g. Wisflux Palace & Spa"
+                placeholder="e.g. Grand Horizon Palace & Spa"
                 value={hotelName}
                 onChange={(e) => setHotelName(e.target.value)}
                 required
