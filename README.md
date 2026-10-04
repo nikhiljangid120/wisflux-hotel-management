@@ -77,15 +77,19 @@ Frontend runs at: `http://localhost:5173`
 
 ## 🌐 Live Demo & Deployment
 
-- **Frontend (Live on Vercel)**: [https://wisflux-hotel-management.vercel.app](https://wisflux-hotel-management.vercel.app)
-- **Backend (Render Blueprint)**: [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/nikhiljangid120/wisflux-hotel-management)
-- **Swagger API Documentation**: `https://wisflux-hotel-backend.onrender.com/api` (active once Render Blueprint is applied)
+| Service | Status | Link |
+|---|---|---|
+| 🐙 **GitHub Repository** | ✅ **LIVE** | [github.com/nikhiljangid120/wisflux-hotel-management](https://github.com/nikhiljangid120/wisflux-hotel-management) |
+| 🌐 **Frontend (Vercel)** | ✅ **LIVE** | [https://wisflux-hotel-management.vercel.app](https://wisflux-hotel-management.vercel.app) |
+| 🖥️ **Backend API (Render)** | ✅ **LIVE** | [https://wisflux-hotel-service.onrender.com](https://wisflux-hotel-service.onrender.com) |
+| 🐘 **Database (Neon)** | ✅ **LIVE** | PostgreSQL 16 (Serverless with SSL) |
 
-### 🚀 One-Click Backend Deployment (Render)
-The repository includes a ready-to-use [`render.yaml`](./render.yaml) blueprint that automatically provisions:
-1. **NestJS Web Service** (`wisflux-hotel-backend`) with production Node.js runtime and auto-restarts.
-2. **PostgreSQL Database** (`wisflux-hotel-db`) automatically linked via `DATABASE_URL`.
-3. Auto-deploys on every `git push origin master`.
+### 🚀 Architecture & Deployment Details
+- **Frontend**: Hosted on **Vercel**, auto-deploying from `master` branch.
+- **Backend**: Hosted on **Render** as a Node.js web service running NestJS.
+- **Database**: Cloud PostgreSQL hosted on **Neon** connected over SSL (`pg-pooler`).
+- **Continuous Deployment**: Any push to `master` automatically updates both frontend and backend.
+
 
 ---
 
