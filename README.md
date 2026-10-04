@@ -77,8 +77,8 @@ Frontend runs at: `http://localhost:5173`
 
 ## 🌐 Live Demo
 
-- **Frontend**: [Deployed on Vercel](#) *(link after deployment)*
-- **Backend API Docs**: [Swagger UI](#) *(link after deployment)*
+- **Frontend**: [https://wisflux-hotel-management.vercel.app](https://wisflux-hotel-management.vercel.app)
+- **Backend API Docs**: Swagger UI at `/api` (deploy backend to get live link)
 
 ---
 
