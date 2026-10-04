@@ -75,10 +75,17 @@ Frontend runs at: `http://localhost:5173`
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Demo & Deployment
 
-- **Frontend**: [https://wisflux-hotel-management.vercel.app](https://wisflux-hotel-management.vercel.app)
-- **Backend API Docs**: Swagger UI at `/api` (deploy backend to get live link)
+- **Frontend (Live on Vercel)**: [https://wisflux-hotel-management.vercel.app](https://wisflux-hotel-management.vercel.app)
+- **Backend (Render Blueprint)**: [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/nikhiljangid120/wisflux-hotel-management)
+- **Swagger API Documentation**: `https://wisflux-hotel-backend.onrender.com/api` (active once Render Blueprint is applied)
+
+### 🚀 One-Click Backend Deployment (Render)
+The repository includes a ready-to-use [`render.yaml`](./render.yaml) blueprint that automatically provisions:
+1. **NestJS Web Service** (`wisflux-hotel-backend`) with production Node.js runtime and auto-restarts.
+2. **PostgreSQL Database** (`wisflux-hotel-db`) automatically linked via `DATABASE_URL`.
+3. Auto-deploys on every `git push origin master`.
 
 ---
 
